@@ -1,0 +1,15 @@
+.start{
+    align-items: center;
+    justify-content: center;
+    margin-top: 8em;
+}
+
+.start h1{
+    font-size: 3.5em;
+}
+
+.start p {
+    
+    margin-bottom: 2em;
+    color: greenyellow
+}
