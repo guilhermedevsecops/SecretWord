@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Secret Word
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Secret Word** é um jogo de adivinhação onde os jogadores devem descobrir a palavra secreta utilizando as dicas fornecidas.
 
-## Available Scripts
+## Descrição
 
-In the project directory, you can run:
+O jogo consiste em adivinhar uma palavra secreta com base nas dicas fornecidas. Cada tentativa de adivinhar a palavra revela se a resposta está correta ou não.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **ReactJS**: Biblioteca JavaScript para a construção de interfaces de usuário.
+- **CSS/SCSS**: Estilização do jogo para uma melhor experiência visual.
+- **JavaScript (ES6+)**: Lógica do jogo e manipulação de dados.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades
 
-### `npm test`
+- **Interface Interativa**: Interface de usuário amigável.
+- **Dicas**: Fornecimento de dicas para ajudar os jogadores a adivinhar a palavra secreta.
+- **Feedback Imediato**: Informações em tempo real sobre a correção das tentativas.
+- **Reiniciar Jogo**: Opção para reiniciar o jogo e tentar adivinhar uma nova palavra secreta.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Jogar
 
-### `npm run build`
+1. **Início do Jogo**: O jogo começa com uma palavra secreta e uma dica exibidas na tela.
+2. **Tentativas de Adivinhação**: Insira a sua tentativa na caixa de entrada e submeta.
+3. **Receber Feedback**: Veja se a sua tentativa está correta ou incorreta.
+4. **Reiniciar**: Após adivinhar a palavra corretamente ou desejar tentar uma nova palavra, utilize a opção de reiniciar o jogo.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instalação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para rodar o jogo localmente, siga os passos abaixo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone este repositório:
+    ```bash
+    git clone https://github.com/guilhermedevsecops/SecretWord
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd secret-word
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+4. Inicie o servidor de desenvolvimento:
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+O jogo estará disponível em `http://localhost:3000`.
